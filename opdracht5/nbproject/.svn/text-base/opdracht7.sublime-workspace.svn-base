@@ -1,0 +1,587 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"alert"
+			],
+			[
+				"t",
+				"this"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Program Files/xampp/htdocs/opdracht7/application/controllers/login.php",
+			"settings":
+			{
+				"buffer_size": 1733,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Program Files/xampp/htdocs/opdracht7/_js/changeFieldName.js",
+			"settings":
+			{
+				"buffer_size": 763,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files/xampp/htdocs/opdracht7/application/controllers/parken.php",
+			"settings":
+			{
+				"buffer_size": 3052,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lines",
+				"Sort Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"Bracket Highlighter: Swap Brackets"
+			],
+			[
+				"file close all",
+				"File: Close All"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"r",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"li",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"cl",
+				"File: Close All"
+			],
+			[
+				"prefi",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"bracke",
+				"Bracket Highlighter: Select Tag"
+			],
+			[
+				"brack",
+				"Bracket Highlighter: Fold by Brackets"
+			],
+			[
+				"hi",
+				"Bracket Highlighter: Match Brackets"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"svn",
+				"Preferences: SVN Settings"
+			],
+			[
+				"ide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tag",
+				"Tag: Close Tag"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"snippet",
+				"Snippet: if"
+			],
+			[
+				"I",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sav",
+				"File: Save All"
+			],
+			[
+				"a",
+				"About"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"id",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"f",
+				"File: Close All"
+			],
+			[
+				"reindent lines",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindne",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files/xampp/htdocs/opdracht7/application/config/database.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/index.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/_js/changeFieldName.js",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/models/field_model.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/controllers/parken.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/models/park_model.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/models/user_model.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/controllers/login.php",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/User/Tag Package.sublime-settings",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/Tag/Tag Package.sublime-settings",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/PHP/switch(-).sublime-snippet",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/views/parken/drieburg.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/views/_includes/login_form.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/.htaccess",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/views/parken/ijburg.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/_css/main.css",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/SVN/SVN.sublime-settings",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
+		"/C/Program Files/xampp/htdocs/opdracht7/user_guide/database/fields.html",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/User/localhost.sublime-build",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Program Files/xampp/htdocs/opdracht7/_images/grass.png",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/controllers/ajax.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/core/MY_Controller.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/views/parken/middenmeer.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/_js/jquery.js",
+		"/C/Program Files/xampp/htdocs/opdracht7/user_guide/helpers/number_helper.html",
+		"/C/Program Files/xampp/htdocs/opdracht7/_css/parken.css",
+		"/C/Program Files/xampp/htdocs/opdracht7/_css/clubs.css",
+		"/C/Program Files/xampp/htdocs/opdracht7/application/views/parken/parken_view.php",
+		"/C/Program Files/xampp/htdocs/opdracht7/_unused images/grass2_tile_small.png",
+		"/C/Program Files/xampp/htdocs/opdracht7/_unused images/grass2_tile.png",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Program Files/xampp/htdocs/opdracht7/nbproject/opdracht7.sublime-project",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Sebastiaan/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Program Files/xampp/htdocs/opdracht7/_css/ie.css"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fname",
+			"3",
+			"data",
+			"id",
+			"parent",
+			"        /*",
+			"this",
+			"        var fname = $(this).parent().find('input[name=name'+fid+']').val();\n",
+			"       ",
+			"indent",
+			"shift+tab",
+			"shift"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Program Files/xampp/htdocs/opdracht7/application/controllers/login.php",
+					"settings":
+					{
+						"buffer_size": 1733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1725,
+								1725
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 666.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Program Files/xampp/htdocs/opdracht7/_js/changeFieldName.js",
+					"settings":
+					{
+						"buffer_size": 763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								513,
+								513
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Program Files/xampp/htdocs/opdracht7/application/controllers/parken.php",
+					"settings":
+					{
+						"buffer_size": 3052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"parken",
+				"application/controllers/parken.php"
+			],
+			[
+				"chang",
+				"_js/changeFieldName.js"
+			],
+			[
+				"controllerslogin",
+				"application/controllers/login.php"
+			],
+			[
+				"",
+				"index.php"
+			],
+			[
+				"dat",
+				"application/config/database.php"
+			],
+			[
+				"data",
+				"application/config/database.php"
+			],
+			[
+				"userm",
+				"application/models/user_model.php"
+			],
+			[
+				"parkm",
+				"application/models/park_model.php"
+			],
+			[
+				"fieldm",
+				"application/models/field_model.php"
+			],
+			[
+				"drieb",
+				"application/views/parken/drieburg.php"
+			],
+			[
+				"loginf",
+				"application/views/_includes/login_form.php"
+			],
+			[
+				"login",
+				"application/controllers/login.php"
+			],
+			[
+				"changefieldname",
+				"_js/changeFieldName.js"
+			],
+			[
+				"cssmain",
+				"_css/main.css"
+			],
+			[
+				"view",
+				"application/views/parken/drieburg.php"
+			],
+			[
+				"ij",
+				"application/views/parken/ijburg.php"
+			],
+			[
+				"changefield",
+				"_js/changeFieldName.js"
+			],
+			[
+				"parken.php",
+				"application/controllers/parken.php"
+			],
+			[
+				"ijburg",
+				"application/views/parken/ijburg.php"
+			],
+			[
+				"field",
+				"user_guide/database/fields.html"
+			],
+			[
+				"pa",
+				"application/controllers/parken.php"
+			],
+			[
+				"js",
+				"_js/changeFieldName.js"
+			],
+			[
+				"log",
+				"application/controllers/login.php"
+			],
+			[
+				"my",
+				"application/core/MY_Controller.php"
+			],
+			[
+				"login.php",
+				"application/controllers/login.php"
+			],
+			[
+				"midenmeer",
+				"application/views/parken/middenmeer.php"
+			],
+			[
+				"drieburg",
+				"application/views/parken/drieburg.php"
+			],
+			[
+				"ijbu",
+				"application/views/parken/ijburg.php"
+			],
+			[
+				"j",
+				"_js/jquery.js"
+			],
+			[
+				"p",
+				"_css/parken.css"
+			],
+			[
+				"clubs.css",
+				"_css/clubs.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true
+}

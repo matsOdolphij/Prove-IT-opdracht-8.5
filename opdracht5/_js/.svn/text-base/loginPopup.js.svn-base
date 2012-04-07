@@ -1,0 +1,19 @@
+$(document).ready(function(){
+    $('a.#inlog_button').click(function(){
+        var inlogbox = $(this).attr('href');
+        
+        $(inlogbox).fadeIn(300);
+        
+        $('body').append('<div id="mask"></div>');
+        $('#mask').fadeIn(300);
+		
+        return false;
+    });
+    $('#mask').live('click', function(){
+        $('#mask, #inlog_box').fadeOut(100 , function() {
+            $('#mask').remove();  
+        }); 
+        return false;
+    });
+});
+

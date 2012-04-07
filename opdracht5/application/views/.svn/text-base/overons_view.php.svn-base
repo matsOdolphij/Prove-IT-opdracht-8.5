@@ -1,0 +1,49 @@
+<link rel="stylesheet" type="text/css" media="screen,print" href="<?php echo base_url();?>_css/overons.css">
+<script src="<?php echo base_url();?>_js/overons.js" type="text/javascript"></script>
+
+<section>
+	<div id="submenu">
+		<ul>
+			<a href="overons/activiteiten">
+				<li>Activiteiten</li>
+			</a>
+			<a class="current_submenu_item" href="overons/recreatie">
+				<li>Recreatie</li>
+			</a>
+			<a href="overons/binnenaccomodatie">
+				<li>Binnenaccomodatie</li>
+			</a>
+			<a href="overons/geschiedenis">
+				<li>Geschiedenis</li>
+			</a>
+			<a href="overons/ecologie">
+				<li>Ecologie</li>
+			</a>
+		</ul>
+	</div><!--end submenu-->
+	
+	<div id="activiteiten_view">
+		<p>Activiteiten</p>
+		<img src="_pictures/overons/soccer_small.jpg" alt="Voetbal" />
+	</div><!--end content-->
+	
+	<div id="recreatie_view">
+		<p>Recreatie</p>
+		<img src="_pictures/overons/soccer_small.jpg" alt="Voetbal" />
+	</div><!--end content-->
+	
+	<div id="binnenaccomodatie_view">
+		<p>Binnenaccomodatie</p>
+		<img src="_pictures/overons/soccer_small.jpg" alt="Voetbal" />
+	</div><!--end content-->
+	
+	<div id="geschiedenis_view">
+		<p>Geschiedenis</p>
+		<img src="_pictures/overons/soccer_small.jpg" alt="Voetbal" />
+	</div><!--end content-->
+	
+	<div id="ecologie_view">
+		<p>Ecologie</p>
+		<img src="_pictures/overons/soccer_small.jpg" alt="Voetbal" />
+	</div><!--end content-->
+</section>

@@ -1,0 +1,31 @@
+<?php
+
+class User_model extends CI_Model {
+
+	var $data = array();
+
+	function __construct() {
+		parent::__construct();
+	}
+
+	public function initialize($id){
+		$this->data = $this->db->get_where('users', array('id' => $id))->_fetch_assoc();
+	}
+
+	public function updateObject($data = null){
+		if($data == null){
+			$data = $this->data;
+		}
+
+		$this->db->where('id', $data['id']);
+		$this->db->update('users', $data);
+	}
+	
+	public function addUser(){
+
+	}
+
+
+}
+
+?>

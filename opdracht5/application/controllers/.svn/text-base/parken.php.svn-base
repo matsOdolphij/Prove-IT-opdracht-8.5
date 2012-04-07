@@ -1,0 +1,108 @@
+<?php
+
+class Parken extends MY_Controller {
+
+    function __construct() {
+        parent::__construct();
+    }
+
+    public function index() {
+        $data['main_content'] = 'parken/parken_view';
+        $this->load->view('_includes/template', $data);
+    }
+    
+    public function drieburg() {
+        if (parent::isAdminUser())
+            $data['main_content'] = 'parken/admin_parken/drieburg_admin';
+        else
+            $data['main_content'] = 'parken/drieburg';
+        $data['park'] = $this->loadPark(2, 'drieburg');
+        $this->load->view('_includes/template', $data);
+    }
+
+    public function middenmeer() {
+        if (parent::isAdminUser())
+            $data['main_content'] = 'parken/admin_parken/middenmeer_admin';
+        else
+            $data['main_content'] = 'parken/middenmeer';
+        $data['park'] = $this->loadPark(1, 'middenmeer');
+
+        $this->load->view('_includes/template', $data);
+    }
+
+    public function ijburg() {
+        if (parent::isAdminUser())
+            $data['main_content'] = 'parken/admin_parken/ijburg_admin';
+        else
+            $data['main_content'] = 'parken/ijburg';
+        $data['park'] = $this->loadPark(3, 'ijburg');
+        $this->load->view('_includes/template', $data);
+    }
+
+    public function voorland() {
+        if (parent::isAdminUser())
+            $data['main_content'] = 'parken/admin_parken/voorland_admin';
+        else
+            $data['main_content'] = 'parken/voorland';
+        $data['park'] = $this->loadPark(4, 'voorland');
+        $this->load->view('_includes/template', $data);
+    }
+
+    private function loadPark($id, $name) {
+        $this->load->model('Park_model', $name);
+        $this->$name->initialize($id);
+
+        return $this->$name;
+    }
+
+    public function updateParkFields($max, $min, $parkid) {
+        $this->load->model('Field_model', 'field');
+        $temp = $this->loadPark($parkid, 'temp');
+        $effected_rows = 0;
+        $array_counter = 0;
+
+        for ($i = $min; $i <= $max; $i++) {
+            if ($temp->data['fields'][$array_counter]->data['status'] != $_POST['status' . $i]) {
+                $effected_rows++;
+
+                $fdata = array(
+                    'id' => $i,
+                    'status' => $_POST['status' . $i]
+                );
+
+                $this->field->updateObject($fdata);
+            }
+            $array_counter++;
+        }
+
+        if ($effected_rows > 0) {
+
+            $pdata = array(
+                'id' => $parkid,
+                'lasteditdate' => date('d-m-Y H:i:s')
+            );
+
+            $temp->updateObject($pdata);
+        }
+
+        $this->session->set_flashdata('effected_rows', $effected_rows);
+
+        parent::redirectLastPage();
+    }
+
+    public function updateFieldName() {
+        $data = array(
+            'id' => $this->input->post('id'),
+            'name' => $this->input->post('name')
+        );
+
+        $this->load->model('Field_model', 'field');
+        $this->field->updateObject($data);
+
+        $name = 'ijburg';
+        $this->$name();
+    }
+
+}
+
+?>

@@ -1,0 +1,46 @@
+<?php
+
+$attr_form = array(
+    'class' => 'login',
+    'method' => 'POST'
+);
+$attr_username = array(
+    'name' => 'username',
+    'id' => 'username',
+    'placeholder' => 'username'
+);
+$attr_password = array(
+    'name' => 'password',
+    'id' => 'password',
+    'placeholder' => 'password'
+);
+$attr_button = array(
+    'class' => 'submit button',
+    'type' => 'submit',
+    'content' => 'Log in'
+);
+echo '<div id = "inlog_box" class = "inlog_popup">';
+echo '<div id = "error">';
+echo $this->session->flashdata('validation_errors');
+echo '</div>';
+echo form_open('../login/validate ', $attr_form);
+echo form_fieldset();
+echo '<label class = "username"><span><b>Username</b></span>';
+echo form_input($attr_username);
+echo '</label><label class = "passsword"><span><b>Password</b></span>';
+echo form_password($attr_password);
+echo '</label>';
+echo form_button($attr_button);
+echo form_fieldset_close();
+echo anchor('../login/forgot ', 'Wachtwoord vergeten?');
+echo form_close('</div>');
+
+if ($this->session->flashdata('failed')) {
+    echo '<script type="text/javascript">';
+    echo '  $(document).ready(function(){';
+    echo '  $("a.#inlog_button").click();';
+    echo '});';
+    echo '</script>';
+}
+?>
+

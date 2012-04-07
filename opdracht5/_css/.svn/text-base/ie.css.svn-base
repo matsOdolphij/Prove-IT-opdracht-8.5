@@ -1,0 +1,64 @@
+body {
+
+}
+
+#secundairy_body {
+
+}
+
+#secundairy_body > * {
+	background-color: rgb(255, 255, 255);
+}
+
+header {
+
+}
+
+#logo {
+
+}
+
+#inlog_button {
+
+}
+
+#inlog_button:hover {
+
+}
+
+#inlog_button:active {
+
+}
+
+#inlog_button:after {
+
+}
+
+nav {
+
+}
+
+nav ul {
+
+}
+
+nav li {
+
+}
+
+nav a {
+	background: green;
+}
+
+nav a:hover {
+	background: -moz-linear-gradient(90deg, #216222 54.4%, #64d149 100%) #e3e3e3;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.544, #216222), to(#64d149)) #e3e3e3;
+}
+
+#content {
+
+}
+
+footer {
+
+}

@@ -1,0 +1,42 @@
+<?php
+
+class Field_model extends CI_Model {
+
+    var $data = array();
+
+    function __construct() {
+        parent::__construct();
+    }
+
+    public function initialize($id){
+        $this->data = $this->db->get_where('field', array('id' => $id))->_fetch_assoc();
+    }
+
+    public function updateObject($data = null){
+        if($data == null){
+            $data = $this->data;
+        }
+
+        $this->db->where('id', $data['id']);
+        $this->db->update('field', $data);
+    }
+
+    public function generateStatusColor() {
+        switch ($this->data['status']) {
+            case 1:
+                $this->data['color'] = 'rgba(10, 255, 10, 0.3)';
+                break;
+            case 2:
+                $this->data['color'] = 'rgba(255, 128, 0, 0.3)';
+                break;
+            case 3:
+                $this->data['color'] = 'rgba(255, 0, 0, 0.3)';
+                break;
+            default:
+                $this->data['color'] = 'rgba(255, 0, 0, 0.3)';
+                break;
+        }
+    }
+}
+
+?>

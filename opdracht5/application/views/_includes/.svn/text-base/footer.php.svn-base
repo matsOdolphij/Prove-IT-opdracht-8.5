@@ -1,0 +1,47 @@
+		<footer>
+			<div id="sitemap">
+				<ul>
+					<li><h3><a title="Over ons" href="#">Over ons</a></h3></li>
+					<li><a href="overons/activiteiten">Activiteiten</a></li>
+					<li><a href="overons/recreatie">Recreatie</a></li>
+					<li><a href="overons/binnenaccomodatie">Binnenaccomodatie</a></li>
+					<li><a href="overons/geschiedenis">Geschiedenis</a></li>
+					<li><a href="overons/ecologie">Ecologie</a></li>
+				</ul>
+				<ul>
+					<li><h3><a title="Nieuws" href="#">Nieuws</a></h3></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul>
+				<ul>
+					<li><h3><a title="Parken" href="#">Parken</a></h3></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul>
+				<ul>
+					<li><h3><a title="Schema's" href="#">Schema's</a></h3></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul>
+				<ul>
+					<li><h3><a title="Clubs" href="#">Clubs</a></h3></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul>
+				<ul>
+					<li><h3><a title="Contact" href="#">Contact</a></h3></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul>
+			</div><!--end sitemap-->
+			<div id="credentials">
+				<p>Developed by <a href="mailto:maikelvlasman@gmail.com">Prove IT - Team 8.7</a></p>
+			</div><!--end credentials-->
+		</footer>
+	</body>
+</html>

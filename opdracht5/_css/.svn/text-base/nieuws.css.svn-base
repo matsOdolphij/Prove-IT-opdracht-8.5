@@ -1,0 +1,6 @@
+/* @override
+	http://oege.ie.hva.nl/~vlasma13/owgm/_css/nieuws.css */
+
+section {
+	height: 600px;
+}

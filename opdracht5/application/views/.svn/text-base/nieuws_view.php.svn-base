@@ -1,0 +1,5 @@
+<link rel="stylesheet" type="text/css" media="screen,print" href="<?php echo base_url();?>_css/nieuws.css">
+
+<section>
+	<h1>Nieuws</h1>
+</section>

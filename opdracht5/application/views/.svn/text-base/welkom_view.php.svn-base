@@ -1,0 +1,5 @@
+<link rel="stylesheet" type="text/css" media="screen,print" href="<?php echo base_url();?>_css/welkom.css">
+
+<section>
+	<h1>Welkom</h1>
+</section>

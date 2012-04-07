@@ -1,0 +1,33 @@
+<?php
+
+class Park_model extends CI_Model {
+
+    var $data = array();
+
+    function __construct() {
+        parent::__construct();
+    }
+
+    function initialize($id) {
+        $this->data = $this->db->get_where('park', array('id' => $id))->_fetch_assoc();
+
+        foreach ($this->db->get_where('field', array('park_id' => $id))->result_array() as $field) {
+            $this->load->model('field_model', $field['id']);
+            $this->$field['id']->data = $field;
+            $this->$field['id']->generateStatusColor();
+            $this->data['fields'][] = $this->$field['id'];
+        }
+    }
+
+    public function updateObject($data = null){
+        if($data == null){
+            $data = $this->data;
+        }
+
+        $this->db->where('id', $data['id']);
+        $this->db->update('park', $data);
+    }
+
+}
+
+?>

@@ -1,0 +1,14 @@
+<?php
+
+class Overons extends MY_Controller {
+
+    function __construct() {
+        parent::__construct();
+    }
+
+    function index() {
+        $data['main_content'] = 'overons_view';
+        $this->load->view('_includes/template', $data);
+    }
+
+}

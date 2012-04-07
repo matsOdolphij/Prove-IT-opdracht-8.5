@@ -1,0 +1,408 @@
+/* @override
+        http://oege.ie.hva.nl/~vlasma13/owgm/_css/parken.css */
+
+section {
+    height: 700px;
+}
+
+#submenu {
+    float: left;
+    height: inherit;
+    border-right: 1px solid #333;
+    width: 200px;
+}
+
+#submenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#submenu ul li {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+}
+
+#submenu ul li {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.current_submenu_item a,
+#submenu ul li:hover {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(51, 153, 34, 0.25);
+}
+
+#submenu ul li:active {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(51, 153, 34, 0.5);
+}
+
+.current_submenu_item a {
+    color: #ff7;
+}
+
+#submenu ul a {
+    text-decoration: none;
+}
+
+.content{
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    height: 550px;
+    width: 830px;
+
+    display:block;
+}
+
+#middenmeer_img{
+    background-image:url('../_pictures/parken/middenmeer.png');
+    width: 850px;
+    height: 500px;
+}
+
+#ijburg_img{
+    background-image:url('../_pictures/parken/ijburg_small.png');
+    width: 535px;
+    height: 600px;
+}
+
+#drieburg_img{
+    background-image:url('../_pictures/parken/drieburg_small.png');
+    width: 850px;
+    height: 500px;
+}
+
+#voorland_img{
+    background-image:url('../_pictures/parken/voorland_small.png');
+    width: 640px;
+    height: 589px;
+}
+#field_popup_link{
+
+    border: thin black solid;
+    background: rgba(255, 255, 255, 0.1);
+
+    font-size: 9px;
+
+    float:right;
+    vertical-align: bottom;
+
+    padding: 3px;
+    margin: 5px;
+}
+.field_popup_box{
+    display: none;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    border: black thin solid;
+
+}
+
+
+.field{
+    border: thin white solid;
+    background-color: rgba(10, 255, 10, 0.3);
+    position: absolute;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    height: 105px;
+    width: 75px;
+}
+
+/* middenmeer fields */
+#field1{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+#field2{
+    margin-top: 260px;
+    margin-left: 40px;
+}
+#field3{
+    margin-top: 370px;
+    margin-left: 40px;
+}
+#field4{
+    margin-top: 260px;
+    margin-left: 120px;
+}
+#field5{
+    margin-top: 370px;
+    margin-left: 120px;
+}
+#field6{
+    margin-top: 260px;
+    margin-left: 210px;
+}
+#field7{
+    margin-top: 370px;
+    margin-left: 210px;
+}
+#field8{
+    margin-top: 370px;
+    margin-left: 290px;
+}
+#field9{
+    margin-top: 40px;
+    margin-left: 430px;
+}
+#field10{
+    margin-top: 150px;
+    margin-left: 430px;
+}
+
+#field11{
+    margin-top: 260px;
+    margin-left: 430px;
+}
+#field12{
+    margin-top: 370px;
+    margin-left: 450px;
+}
+#field13{
+    margin-top: 370px;
+    margin-left: 530px;
+}
+#field14{
+    margin-top: 380px;
+    margin-left: 640px;
+}
+#field15{
+    margin-top: 380px;
+    margin-left: 720px;
+}
+
+#field16{
+    margin-top: 40px;
+    margin-left: 515px;
+
+    height: 75px;
+    width: 105px;
+}
+
+#field17{
+    margin-top: 125px;
+    margin-left: 545px;
+
+}
+
+#field18{
+    margin-top: 280px;
+    margin-left: 515px;
+
+    height: 75px;
+    width: 105px;
+}
+#field19{
+    margin-top: 80px;
+    margin-left: 680px;
+
+    height: 75px;
+    width: 105px;
+
+}
+#field20{
+    margin-top: 170px;
+    margin-left: 670px;
+
+}
+#field21{
+    margin-top: 170px;
+    margin-left: 750px;
+
+}
+/* end middenmeer fields */
+/* start ijburg fields */
+#field22{
+    height: 145px;
+    width: 95px;
+
+    margin-top: 390px;
+    margin-left: 345px;
+}
+#field23{
+    margin-top: 415px;
+    margin-left: 190px;
+    height: 95px;
+    width: 145px;
+}
+#field24{
+    margin-top: 230px;
+    margin-left: 260px;
+
+    height: 155px;
+    width: 115px;
+}
+/* end ijburg fields */
+/* start drieburg fields*/
+#field25{
+    margin-top:165px;
+    margin-left:25px;
+
+    height: 65px;
+    width: 105px;
+}
+#field26{
+    margin-top:125px;
+    margin-left:190px;
+
+    height: 65px;
+    width: 105px;
+}
+#field27{
+    margin-top:50px;
+    margin-left:190px;
+
+    height: 65px;
+    width: 105px;
+}
+#field28{
+    margin-top:50px;
+    margin-left:305px;
+
+    height: 65px;
+    width: 105px;
+}
+#field29{
+    margin-top:125px;
+    margin-left:305px;
+
+    height: 65px;
+    width: 105px;
+}
+#field30{
+    margin-top:125px;
+    margin-left:425px;
+
+    height: 65px;
+    width: 105px;
+}
+#field31{
+    margin-top:50px;
+    margin-left:425px;
+
+    height: 65px;
+    width: 105px;
+}
+#field32{
+    margin-top:260px;
+    margin-left:205px;
+
+    height: 65px;
+    width: 105px;
+}
+#field33{
+    margin-top:345px;
+    margin-left:205px;
+
+    height: 65px;
+    width: 105px;
+}
+#field34{
+    margin-top:240px;
+    margin-left:25px;
+
+    height: 65px;
+    width: 105px;
+}
+#field35{
+    margin-top:70px;
+    margin-left:555px;
+
+    height: 105px;
+    width: 65px;
+}
+#field36{
+    margin-top:70px;
+    margin-left:625px;
+
+    height: 105px;
+    width: 65px;
+}
+#field37{
+    margin-top:260px;
+    margin-left:325px;
+
+    height: 105px;
+    width: 65px;
+}
+/* end drieburg fields */
+/* start voorland fields */
+#field38{
+    margin-top:20px;
+    margin-left:15px;
+
+    height: 116px;
+    width: 200px;
+}
+#field39{
+    margin-top:20px;
+    margin-left:230px;
+
+    height: 116px;
+    width: 200px;
+}
+#field40{
+    margin-top:20px;
+    margin-left:445px;
+
+    height: 116px;
+    width: 180px;
+}
+#field41{
+    margin-top:170px;
+    margin-left:25px;
+
+    height: 116px;
+    width: 180px;
+}
+#field42{
+    margin-top:160px;
+    margin-left:240px;
+
+    height: 116px;
+    width: 180px;
+}
+#field43{
+    margin-top:160px;
+    margin-left:445px;
+
+    height: 116px;
+    width: 180px;
+}
+#field44{
+    margin-top:380px;
+    margin-left:170px;
+
+    height: 116px;
+    width: 160px;
+}
+#field45{
+    margin-top:460px;
+    margin-left:445px;
+
+    height: 116px;
+    width: 190px;
+}
+#field46{
+    margin-top:335px;
+    margin-left:445px;
+
+    height: 116px;
+    width: 190px;
+}
+
+/* end voorland fields */
+
+
+
+

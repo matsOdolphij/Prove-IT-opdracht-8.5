@@ -1,0 +1,15 @@
+<?php
+
+class Clubs extends MY_Controller {
+
+	function __construct()
+	{
+		parent::__construct();
+	}
+
+	function index()
+	{
+		$data['main_content'] = 'clubs_view';
+		$this->load->view('_includes/template', $data);
+	}
+}

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config
+END
+profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/profiler.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/routes.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/database.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/index.html
+END
+migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/migration.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/constants.php
+END
+mimes.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/mimes.php
+END
+hooks.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/hooks.php
+END
+doctypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/doctypes.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/config.php
+END
+foreign_chars.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/foreign_chars.php
+END
+smileys.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/smileys.php
+END
+user_agents.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/user_agents.php
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/application/config/autoload.php
+END

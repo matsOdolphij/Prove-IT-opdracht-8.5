@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    $('.field').click(function(){
+        
+        var fid = $(this).find('input[name=id]').val();
+        var fstatus = $(this).find('input[name=status'+fid+']').val();
+        var colors = arrayFromArgs('rgba(10, 255, 10, 0.3)','rgba(255, 128, 0, 0.3)','rgba(255, 0, 0, 0.3)');
+     
+        var nextStatus = 1;
+        if(fstatus == 3) nextStatus = -2;
+        
+        var newStatus = Number(fstatus)+Number(nextStatus);
+        
+        $(this).css('background-color', colors[newStatus-1]);
+        $(this).find('input[name=status'+fid+']').val(newStatus);
+    
+    });
+    
+    function arrayFromArgs() {
+        return $.makeArray(arguments);
+    }
+});

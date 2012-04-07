@@ -1,0 +1,29 @@
+$(document).ready(function() {
+    $(".bttn").click(function() {
+
+        var fid = $(this).parent().find('input[name=id]').val();
+        var fname = $(this).parent().find('input[name=name'+fid+']').val();
+        
+        var field_data = {
+            id : fid,
+            name : fname
+        };
+        
+        $.ajax({
+            type: "POST",  
+            url: "http://localhost/opdracht7/parken/updateFieldName", 
+            data: field_data,  
+            success: function(msg) {
+                $('body').html(msg);
+            }
+        });
+        
+        return false;
+    });
+    $('a.#field_popup_link').live('click', function(){
+        var box = $(this).attr('href');
+        $(box).fadeIn(300);
+        
+        return false;
+    });
+});

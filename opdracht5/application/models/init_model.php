@@ -1,0 +1,42 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Init_model extends CI_Model {
+
+	function get_nav() {
+		$nav = $this->db->get('nav');
+		
+		$nav_menu = array();
+		
+		for($row = 0; $row < $nav->num_rows(); $row++) {
+			array_push($nav_menu, (object)array(
+				'id' => $nav->row($row)->id, 
+				'name' => $nav->row($row)->name, 
+				'link' => $this->name_to_link($nav->row($row)->name),
+				'class' => $this->class_current_page($nav->row($row)->name)
+			));
+		}
+		return $nav_menu;
+	}
+	
+	function get_title() {
+		foreach($this->get_nav() as $nav_item) {
+			if($this->uri->segment(1) == $this->name_to_link($nav_item->name)) {
+				return ' - ' . $nav_item->name;
+			}
+		}
+	}
+	
+	function name_to_link($data) {
+		$search = array(' ', '\'');
+		$replace = array('', '');
+		return str_replace($search, $replace, strtolower($data));
+	}
+	
+	function class_current_page($nav_name) {
+		if($this->name_to_link($nav_name) == $this->uri->segment(1)) {
+			return 'current_page';
+		} else {
+			return '';
+		}
+	}
+}

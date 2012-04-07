@@ -1,0 +1,19 @@
+    <div id="submenu">
+        <ul>
+            <a href="index">
+                <li>Overzicht</li>
+            </a>
+            <a href="middenmeer">
+                <li>Middenmeer</li>
+            </a>
+            <a href="voorland">
+                <li>Voorland</li>
+            </a>
+            <a href="drieburg">
+                <li>Drieburg</li>
+            </a>
+            <a href="ijburg">
+                <li>Sportpark Ijburg</li>
+            </a>
+        </ul>
+    </div>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/system/libraries/Cache/drivers
+END
+Cache_apc.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/system/libraries/Cache/drivers/Cache_apc.php
+END
+Cache_file.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/system/libraries/Cache/drivers/Cache_file.php
+END
+Cache_memcached.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/system/libraries/Cache/drivers/Cache_memcached.php
+END
+Cache_dummy.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/proveit1112_08/!svn/ver/8/8.7/opdracht7/system/libraries/Cache/drivers/Cache_dummy.php
+END
