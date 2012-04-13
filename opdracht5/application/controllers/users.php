@@ -1,0 +1,66 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Users extends MY_Controller {
+
+	public function __construct() {
+		parent::__construct();
+	}
+
+	public function index(){
+		$this->load->helper('form');
+		$data['main_content'] = 'login_view';
+		$this->load->view('_includes/template', $data);
+	}
+
+	public function validate() {
+		$this->load->helper(array('form', 'url'));
+
+		$this->load->library('form_validation');
+
+		$this->form_validation->set_rules('username', 'username', 'trim|required|xss_clean');
+		$this->form_validation->set_rules('password', 'password', 'trim|required|md5');
+
+		if ($this->form_validation->run() == FALSE) {
+			$this->failed_login(validation_errors());
+		} else {
+			$this->authenticate();
+		}
+	}
+
+	private function authenticate() {
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+
+		$result = $this->db->get_where('users', array('username' => $username, 'password' => $password));
+
+		if ($result->num_rows() != 1) {
+			$this->failed_login('<p>Verkeerde gegevens, probeer het opnieuw</p>');
+		} else {
+			$result = $result->_fetch_assoc();
+			$userdata = array(
+				'userid' => $result['id'],
+				'username' => $result['username'],
+				'logged_in' => TRUE,
+				'clearance' => $result['clearance']
+				);
+			$this->session->set_userdata($userdata);
+			parent::redirectLastPage();
+		}
+	}
+
+	private function failed_login($error) {
+		$this->session->set_flashdata('validation_errors', $error);
+		$this->session->set_flashdata('failed', TRUE);
+
+		parent::redirectLastPage();
+	}
+
+	public function logout() {
+		$this->session->sess_destroy();
+		$this->data['user'] = FALSE;
+
+		parent::redirectLastPage();
+	}
+}
+
+?>

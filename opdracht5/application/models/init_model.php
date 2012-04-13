@@ -2,6 +2,10 @@
 
 class Init_model extends CI_Model {
 
+	public function __construct(){
+	   parent::__construct();
+	}
+
 	function get_nav() {
 		$nav = $this->db->get('nav');
 		

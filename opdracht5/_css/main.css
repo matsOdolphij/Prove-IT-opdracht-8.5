@@ -15,11 +15,11 @@
 }
 
 #menu{
-	border-top: 1px solid #CCC;
 }
+
 #menu ul{
 	list-style: none;
-	width: 948px;
+	width: auto;
 }
 
 #menu li{
@@ -27,12 +27,14 @@
 	float: left;
 	width: auto;
 	height: 39px;
+
 	border-right: medium solid;
 	border-right-color: #af0d2c;
 	border-right-width: thin;
+	border-top: 1px solid #CCC;
+
 	display: block;
 	position: relative;
-
 }
 
 #menu a{
@@ -40,31 +42,120 @@
 	font-style: normal;
 	font-variant: normal;
 	text-decoration: none;
-	padding: 10px 51px 10px 51px;
+
+	padding: 10px 49px 10px 49px;
+
 	display: block;
 	position: relative;
 }
 #footer{
 	width: 100%;
-	background-color: #D4153A;
-	color: white;
-	display: block;
-	height: 200px;
+	height: auto;
 
+	background-color: #D4153A;
+
+	color: white;
+	display: block;	
 }
 
 #footer_img{
 	background-image: url("../_images/footer_bg.png");
 	background-repeat: repeat-x;
+
 	width: 100%;
 	height: 18px;
+
 	display: block;
 	position: relative;
 }
+
+#footer_container{
+	width: 948px;
+	margin: auto;
+	padding: 0 16px;
+	height: 200px;
+
+	background-color: #D4153A;
+	display:block;
+
+}
+
 section{
-	margin-top: 50px;
-	padding: 5px;
-	height: 500px;
+	margin-top: 70px;
+	padding: 10px;
+	height: auto;
+	min-height: 500px;
 	display: block;
 	position: relative;
 }
+/*--begin inlog elements--*/
+.inlog_box{
+	border: thin black solid;
+	margin: auto;
+	width: 400px;
+	display:block;
+	padding: 10px;
+	font-size: 1.7em;
+}
+.login fieldset{
+	border: none;
+}
+.login span{
+	display:block;
+}
+.login label{
+	margin-top: 5px;
+	display:block;
+}
+.login .button{
+	margin-top:5px;
+	padding:6px 6px 4px;
+	width: 300px;
+	font-size: 1.1em;
+}
+.login input{
+	border-radius: 3px 3px 3px 3px;
+	border-bottom:1px solid #333;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	border-top:1px solid #000;
+	padding:6px 6px 4px;
+	width: 300px;
+	font-size: 1.7em;
+}
+.login a{
+	margin-left: 13px;
+}
+#error{
+	background-color: red;
+	border-radius: 3px 3px 3px 3px;
+}
+#error p{
+	margin: 0px;
+	padding: 0px;
+	max-width: 180px;
+	font-size: 10px;
+}
+.system_feedback{
+	background-color: #6d6;
+	border-radius: 3px 3px 3px 3px;
+	margin: 5px;
+	width: auto;
+	padding: 5px;
+
+}
+
+/*--end inlog elements--*/
+
+/*-- add post elementen -- */
+#addpost_form textarea{
+	resize: none;
+}
+
+#post_form td{
+	vertical-align: top;
+	min-width: 200px;
+	width: auto;
+}
+
+/*-- end post elementen -- */
