@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"addpost",
+				"addpost_content"
+			],
+			[
+				"t",
+				"text-top"
+			],
+			[
 				"attr_",
 				"attr_textarea"
 			],
@@ -30,15 +38,27 @@
 			[
 				"a",
 				"alert"
-			],
-			[
-				"t",
-				"this"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Program Files/xampp/htdocs/opdracht5/application/views/post_view.php",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Program Files/xampp/htdocs/opdracht5/application/controllers/post.php",
+			"settings":
+			{
+				"buffer_size": 935,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -55,16 +75,24 @@
 				"Indentation: Reindent Lines"
 			],
 			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"construc",
+				"Snippet: construct"
+			],
+			[
+				"model",
+				"Snippet: model"
+			],
+			[
 				"php",
 				"Set Syntax: PHP"
 			],
 			[
 				"snipper",
 				"Snippet: crud"
-			],
-			[
-				"reind",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"rein",
@@ -295,7 +323,7 @@
 				"Indentation: Reindent Lines"
 			]
 		],
-		"width": 440.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -312,9 +340,11 @@
 	},
 	"file_history":
 	[
-		"/C/Program Files/xampp/htdocs/opdracht5/application/views/post_view.php",
-		"/C/Program Files/xampp/htdocs/opdracht5/application/controllers/post.php",
 		"/C/Program Files/xampp/htdocs/opdracht5/_css/main.css",
+		"/C/Program Files/xampp/htdocs/opdracht5/application/controllers/post.php",
+		"/C/Program Files/xampp/htdocs/opdracht5/application/models/post_model.php",
+		"/C/Program Files/xampp/htdocs/opdracht5/application/views/post_view.php",
+		"/C/Program Files/xampp/htdocs/opdracht5/application/core/MY_Controller.php",
 		"/C/Program Files/xampp/htdocs/opdracht5/application/views/welkom_view.php",
 		"/C/Program Files/xampp/htdocs/opdracht5/application/views/_includes/template.php",
 		"/C/Program Files/xampp/htdocs/opdracht5/application/controllers/home.php",
@@ -324,7 +354,6 @@
 		"/C/Program Files/xampp/htdocs/opdracht5/application/views/login_view.php",
 		"/C/Program Files/xampp/htdocs/opdracht5/application/config/routes.php",
 		"/C/Program Files/xampp/htdocs/opdracht5/application/controllers/users.php",
-		"/C/Program Files/xampp/htdocs/opdracht5/application/core/MY_Controller.php",
 		"/C/Program Files/xampp/htdocs/opdracht5/application/config/config.php",
 		"/C/Program Files/xampp/htdocs/opdracht5/.htaccess",
 		"/C/Program Files/xampp/htdocs/opdracht5/user_guide/database/connecting.html",
@@ -421,6 +450,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"' => '', );",
+			"attr_textarea",
+			"form_textarea",
 			"7",
 			"' =>'",
 			"    ",
@@ -461,6 +493,62 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Program Files/xampp/htdocs/opdracht5/application/views/post_view.php",
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								844,
+								844
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Program Files/xampp/htdocs/opdracht5/application/controllers/post.php",
+					"settings":
+					{
+						"buffer_size": 935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -506,6 +594,18 @@
 		"selected_items":
 		[
 			[
+				"post",
+				"application/controllers/post.php"
+			],
+			[
+				"main",
+				"_css/main.css"
+			],
+			[
+				"my",
+				"application/core/MY_Controller.php"
+			],
+			[
 				"aut",
 				"application/config/autoload.php"
 			],
@@ -520,14 +620,6 @@
 			[
 				"view",
 				"application/views/welkom_view.php"
-			],
-			[
-				"main",
-				"_css/main.css"
-			],
-			[
-				"post",
-				"application/controllers/post.php"
 			],
 			[
 				"header",
@@ -556,10 +648,6 @@
 			[
 				"rout",
 				"application/config/routes.php"
-			],
-			[
-				"my",
-				"application/core/MY_Controller.php"
 			],
 			[
 				"home",
